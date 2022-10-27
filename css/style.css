@@ -218,19 +218,19 @@ body {
 .hero {
   display: flex;
   flex-direction: column;
-    margin: auto;
+  margin: auto;
   justify-content: center;
   align-items: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bgi.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bgi.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   letter-spacing: 0.06em;
   text-align: center;
   max-width: 1600px;
-
 }
 
 .hero-title {
@@ -403,11 +403,10 @@ body {
 .customer-item:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
-
 }
-.customers-svg{
+.customers-svg {
   width: 106px;
-   height: 60px;
+  height: 60px;
 }
 
 /* portfolio */
