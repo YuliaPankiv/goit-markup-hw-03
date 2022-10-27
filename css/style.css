@@ -39,16 +39,6 @@ body {
 .list {
   list-style: none;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 /* header */
 .page-header {
@@ -215,18 +205,15 @@ body {
 }
 .footer-social .lists-svg {
   gap: 10px;
-    fill: var(--primary-write-color);
-
+  fill: var(--primary-write-color);
 }
 .footer-social .social-svg {
-    fill: var(--primary-write-color);
-
+  fill: var(--primary-write-color);
 }
 .footer-social .list {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-
 
 /* order */
 .hero {
